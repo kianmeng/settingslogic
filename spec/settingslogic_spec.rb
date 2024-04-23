@@ -165,7 +165,7 @@ describe "Settingslogic" do
   end
 
   # If .name is a property, respond with that instead of delegating to superclass
-  it "should allow a name setting to be overriden" do
+  it "should allow a name setting to be overridden" do
     Settings.name.should == 'test'
   end
   
